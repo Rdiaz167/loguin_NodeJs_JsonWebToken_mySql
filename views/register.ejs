@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign-in.css">
+    <title>Register</title>
+</head>
+<body>
+    <main class="form-signin">
+        <form action="/register" method="post">     
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre completo</label>
+            <input id="name" name="name" type="text" class="form-control" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="user" class="form-label">Cuenta de usuario</label>
+            <input id="user" name="user" type="text" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="pass" class="form-label">Password</label>
+            <input id="pass" name="pass" type="password" class="form-control">
+          </div>
+          <div class="card-footer bg-transparent border-primary">
+            <a href="/" type="button" class="btn btn-secondary">Cancelar</a>
+            <button type="submit" class="btn btn-primary">Registrar</button>
+          </div>
+        </form>
+      </main>
+</body>
+</html>
